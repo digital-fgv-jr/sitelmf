@@ -22,7 +22,7 @@ function App() {
         <Route path="/projetos" element={<Projetos />} />
       </Routes>
 
-      <Footer />  {/* Adicione o componente Footer */}
+      <Footer />
     </Router>
   );
 }

@@ -1,4 +1,4 @@
-.inicio-container {
+.inicio-header {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,6 +39,7 @@
   position: relative;
   z-index: 2;
   width: 13rem;
+  height: auto;
 }
 
 .logo-banner p{
@@ -54,4 +55,27 @@
   background-color: var(--azul-principal);
   opacity: 0.6;
   z-index: 0;
+}
+
+.sobre-nos {
+  width: 100%;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.sobre-nos h2 {
+  margin-top: -1.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: var(--azul-principal);
+}
+
+.sobre-nos p {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #3D3D3D;
 }
