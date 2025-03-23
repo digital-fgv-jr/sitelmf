@@ -9,16 +9,16 @@ const Navbar = () => {
   const [hidden, setHidden] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY === 0) {
+    if (window.scrollY < 100) {
       setScrolled(false);
       setHidden(false);
     }
     else if (window.scrollY > lastScrollY && window.scrollY > 100) {
       setScrolled(false);
-      setHidden(true); // Esconde a navbar e a linha ao rolar para baixo
+      setHidden(true);
     } else if (window.scrollY < lastScrollY && window.scrollY > 100) {
       setScrolled(true);
-      setHidden(false); // Exibe a navbar e a linha ao rolar para cima
+      setHidden(false);
     }
     setLastScrollY(window.scrollY);
   };
