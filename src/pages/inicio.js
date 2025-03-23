@@ -44,7 +44,12 @@ function Inicio() {
       <div className="missoes-visao-valores">
         <div className="missao">
           <h3>Missão</h3>
-          <p>Descrição da missão da organização.</p>
+          <p>
+          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+          </p>
         </div>
         <div className="visao">
           <h3>Visão</h3>
