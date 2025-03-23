@@ -1,0 +1,57 @@
+.inicio-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.inicio-imagem-topo {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  color: white;
+  margin-top: 7rem;
+}
+
+.logo-img {
+  position: relative;
+  z-index: 2;
+  width: 13rem;
+}
+
+.logo-banner p{
+  font-size: 1.1rem;
+}
+
+.tela-azul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--azul-principal);
+  opacity: 0.6;
+  z-index: 0;
+}

@@ -1,20 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../styles/components/Navbar.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [hidden, setHidden] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY === 0){
+    if (window.scrollY === 0) {
       setScrolled(false);
+      setHidden(false);
     }
     else if (window.scrollY > lastScrollY && window.scrollY > 100) {
       setScrolled(false);
+      setHidden(true); // Esconde a navbar e a linha ao rolar para baixo
     } else if (window.scrollY < lastScrollY && window.scrollY > 100) {
       setScrolled(true);
+      setHidden(false); // Exibe a navbar e a linha ao rolar para cima
     }
     setLastScrollY(window.scrollY);
   };
@@ -27,7 +31,7 @@ const Navbar = () => {
   }, [lastScrollY]);
 
   return (
-    <header className={`main-header ${scrolled ? 'scrolled' : ''}`}>
+    <header className={`main-header ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
       <header className='subheader'>
         <div className="logo">
           <img
@@ -79,7 +83,7 @@ const Navbar = () => {
           </nav>
         )}
       </header>
-      <hr className={`header-divider ${scrolled ? 'hidden' : ''}`} />
+      <hr className={`header-divider ${hidden || scrolled ? 'hidden' : ''}`} />
     </header>
   );
 };
