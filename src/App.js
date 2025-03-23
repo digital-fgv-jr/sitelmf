@@ -7,11 +7,13 @@ import ProcessoSeletivo from './pages/processoSeletivo';
 import Equipe from './pages/equipe';
 import Alumni from './pages/alumni';
 import Projetos from './pages/projetos';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/processoSeletivo" element={<ProcessoSeletivo />} />
@@ -19,6 +21,8 @@ function App() {
         <Route path="/alumni" element={<Alumni />} />
         <Route path="/projetos" element={<Projetos />} />
       </Routes>
+
+      <Footer />  {/* Adicione o componente Footer */}
     </Router>
   );
 }
