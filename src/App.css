@@ -2,7 +2,10 @@
 
 body {
   font-family: 'Playfair Display', serif;
-  background-color: #062553;
+  background-color: #4e4e4e;
+  height: 2000px;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
@@ -11,5 +14,7 @@ body {
 }
 
 @media (max-width: 768px) {
-
+  body {
+    height: 1500px;
+  }
 }
