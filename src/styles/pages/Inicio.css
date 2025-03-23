@@ -84,21 +84,20 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  padding: 3rem 2rem;
+  padding: 4rem 10rem;
   background-color: var(--azul-principal);
-  color: white;
+  color: var(--azul-principal);
 }
 
 .missoes-visao-valores div {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(255, 255, 255, 0.65);
   padding: 2rem;
   text-align: center;
   flex: 1;
-  border-radius: 8px;
 }
 
 .missoes-visao-valores h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
   text-decoration: underline;
 }
