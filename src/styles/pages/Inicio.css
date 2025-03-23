@@ -155,14 +155,14 @@
 .parceiros-grid {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-  gap: 7rem; /* espaçamento entre os itens */
-  max-width: 1200px; /* ajuste conforme seu layout */
-  margin: 0 auto; /* centraliza o grid na página */
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .parceiros-grid img {
   width: 100%;
-  max-width: 150px; /* define uma largura máxima p/ cada logo */
+  max-width: 150px;
   object-fit: contain;
 }
