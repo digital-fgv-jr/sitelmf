@@ -1,3 +1,9 @@
+.inicio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .inicio-header {
   width: 100%;
   display: flex;
@@ -132,4 +138,31 @@
 .missoes-visao-valores p {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+.parceiros {
+  margin-top: -3rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.parceiros h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--azul-principal);
+}
+
+.parceiros-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+  gap: 7rem; /* espaçamento entre os itens */
+  max-width: 1200px; /* ajuste conforme seu layout */
+  margin: 0 auto; /* centraliza o grid na página */
+}
+
+.parceiros-grid img {
+  width: 100%;
+  max-width: 150px; /* define uma largura máxima p/ cada logo */
+  object-fit: contain;
 }
