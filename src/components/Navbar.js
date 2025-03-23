@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -8,7 +8,7 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleScroll = () => {
-    if (window.scrollY == 0){
+    if (window.scrollY === 0){
       setScrolled(false);
     }
     else if (window.scrollY > lastScrollY && window.scrollY > 100) {
