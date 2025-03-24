@@ -35,6 +35,12 @@
   align-items: center;
 }
 
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .logo img {
   height: 4rem;
   width: auto;

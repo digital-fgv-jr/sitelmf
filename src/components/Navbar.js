@@ -34,6 +34,7 @@ const Navbar = () => {
     <header className={`main-header ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
       <header className='subheader'>
         <div className="logo">
+          <Link to="/">
           <img
             src="/logoo.png"
             alt="Logo LMF"
@@ -44,6 +45,7 @@ const Navbar = () => {
             <span className="lmf">LMF</span>
             <span className="fgv-rio">FGV RIO</span>
           </div>
+          </Link>
         </div>
 
         <nav className="nav-links">

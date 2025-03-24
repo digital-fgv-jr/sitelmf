@@ -31,14 +31,14 @@
   flex-direction: row;
 }
 
-.ps-project-image {
+.project-image {
   width: 30rem;
   height: 15rem;
   margin-right: 1rem;
   margin-left: 1rem;
 }
 
-.ps-project-info {
+.project-info {
   margin-left: 1rem;
   margin-right: 1rem;
   display: flex;
@@ -47,13 +47,13 @@
   width: 100%;
 }
 
-.ps-project-title {
+.project-title {
   font-size: 1.3rem;
   font-weight: bold;
   margin: 0;
 }
 
-.ps-project-description {
+.project-description {
   font-size: 14px;
   color: #666;
   margin-top: 8px;
