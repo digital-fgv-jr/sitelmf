@@ -1,32 +1,46 @@
-.ps-projects-container {
+.core-container{
+  margin-bottom: 2rem;
+}
+
+.core {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  margin: 2rem;
   width: 65rem;
 }
 
-.ps-project {
+.core-title {
+  color: var(--azul-principal);
+  font-size: 2rem;
+  margin-top: 1;
+  margin-bottom: 0;
+}
+
+.project {
   display: flex;
+  align-items: center;
   border: 0.05rem solid #ddd;
   overflow: hidden;
 }
 
-.ps-project:nth-child(even) {
+.project:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-.ps-project:nth-child(odd) {
+.project:nth-child(odd) {
   flex-direction: row;
 }
 
 .ps-project-image {
   width: 30rem;
-  height: auto;
+  height: 15rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .ps-project-info {
-  padding: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
