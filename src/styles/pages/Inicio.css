@@ -139,30 +139,3 @@
   font-size: 1.1rem;
   line-height: 1.5;
 }
-
-.parceiros {
-  margin-top: -3rem;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-.parceiros h2 {
-  font-size: 3.5rem;
-  margin-bottom: 1.5rem;
-  color: var(--azul-principal);
-}
-
-.parceiros-grid {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 7rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.parceiros-grid img {
-  width: 100%;
-  max-width: 150px;
-  object-fit: contain;
-}

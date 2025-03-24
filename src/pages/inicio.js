@@ -60,21 +60,6 @@ function Inicio() {
           <p>Descrição dos valores da organização.</p>
         </div>
       </div>
-
-      <div className="parceiros">
-        <h2>Parcerias</h2>
-        <div className="parceiros-grid">
-          <img src="/hig.jpg" alt="Parceiro 1" />
-          <img src="/vista.png" alt="Parceiro 2" />
-          <img src="/safra.svg" alt="Parceiro 3" />
-          <img src="/arbor.png" alt="Parceiro 4" />
-          <img src="/vinci.png" alt="Parceiro 5" />
-          <img src="/kinea.png" alt="Parceiro 6" />
-          <img src="/ubs.svg" alt="Parceiro 7" />
-          <img src="/tork.png" alt="Parceiro 8" />
-        </div>
-      </div>
-
     </div>
   );
 }

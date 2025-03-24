@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/pages/processoSeletivo.css';
 
-function Inicio() {
+function ProcessoSeletivo() {
   return (
     <div className='ps-container'>
 
@@ -83,4 +83,4 @@ function Inicio() {
   );
 }
 
-export default Inicio;
+export default ProcessoSeletivo;
