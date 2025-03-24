@@ -1,12 +1,21 @@
-.core-container{
+.core-container {
   margin-bottom: 2rem;
+  width: 100%;
+}
+
+.core:nth-child(even) {
+  background-color: #06255309;
 }
 
 .core {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 65rem;
+  width: 100%;
+  max-width: 100rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-left: 0;
 }
 
 .core-title {
@@ -17,6 +26,8 @@
 }
 
 .project {
+  width: 100%;
+  max-width: 65rem;
   display: flex;
   align-items: center;
   border: 0.05rem solid #ddd;
