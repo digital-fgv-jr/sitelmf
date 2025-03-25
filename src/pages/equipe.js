@@ -1,10 +1,111 @@
-function equipe() {
-    return (
-      <div>
-        <h1>equipe</h1>
-        <p>teste</p>
+import React from 'react';
+import '../styles/pages/equipe.css';
+
+function Equipe() {
+  const diretores = [
+    { nome: 'Pedro Migon', posicao: 'Presidente', linkedin: 'http://www.linkedin.com/in/pedro-migon', imagem: ""  },
+    { nome: 'Diretor 2', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Diretor 3', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Diretor 4', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Diretor 5', posicao: 'Posição', linkedin: '#', imagem: "" },
+  ];
+
+  const membros = [
+    { nome: 'Membro 1', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Membro 2', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Membro 3', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Membro 4', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Membro 5', posicao: 'Posição', linkedin: '#', imagem: ""  },
+  ];
+
+  return (
+    <div className='equipe-container'>
+      <div className="equipe-header">
+        <img 
+          src="/imagem-inicio.jpg" 
+          alt="Imagem topo" 
+          className="equipe-imagem-topo" 
+        />
+        <div className="equipe-banner">
+          <div className='equipe-logo-banner'>
+            <div className="equipe-logo">
+              <img
+                src="/logoo.png"
+                alt="Logo LMF"
+                className="equipe-logo-image"
+              />
+              <div className="equipe-separator"></div>
+              <div className="equipe-logo-name">
+                <span className="equipe">Equipe</span>
+              </div>
+            </div>
+          </div>
+          <div className="equipe-tela-azul"></div>
+        </div>
       </div>
-    );
-  }
-  
-  export default equipe;
+
+      <section className='equipe-diretoria'>
+        <h2>DIRETORIA</h2>
+        <div className='equipe-cards-container'>
+          {diretores.map((diretor, index) => (
+            <div key={index} className='equipe-card'>
+              <img 
+                src= {diretor.imagem}
+                alt='Foto perfil' 
+                className='equipe-foto' 
+              />
+              <div className='equipe-info'>
+                <p className='equipe-nome'>{diretor.nome}</p>
+                <p className='equipe-posicao'>{diretor.posicao}</p>
+                <a 
+                  href={diretor.linkedin} 
+                  target='_blank' 
+                  rel='noopener noreferrer'
+                >
+                  <img 
+                    src='/linkedin-icon-preto.png' 
+                    alt='LinkedIn' 
+                    className='equipe-linkedin' 
+                  />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className='equipe-membros'>
+        <h2>MEMBROS</h2>
+        <div className='equipe-cards-container'>
+          {membros.map((membro, index) => (
+            <div key={index} className='equipe-card'>
+              <img 
+                src= {membro.imagem} 
+                alt='Foto perfil' 
+                className='equipe-foto' 
+              />
+              <div className='equipe-info'>
+                <p className='equipe-nome'>{membro.nome}</p>
+                <p className='equipe-posicao'>{membro.posicao}</p>
+                <a 
+                  href={membro.linkedin} 
+                  target='_blank' 
+                  rel='noopener noreferrer'
+                >
+                  <img 
+                    src='/linkedin-icon-preto.png' 
+                    alt='LinkedIn' 
+                    className='equipe-linkedin' 
+                  />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+    </div>
+  );
+}
+
+export default Equipe;
