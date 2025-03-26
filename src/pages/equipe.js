@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/pages/equipe.css';
+import Banner from '../components/Banner';
 
 function Equipe() {
   const diretores = [
@@ -20,29 +21,11 @@ function Equipe() {
 
   return (
     <div className='equipe-container'>
-      <div className="equipe-header">
-        <img 
-          src="/imagem-inicio.jpg" 
-          alt="Imagem topo" 
-          className="equipe-imagem-topo" 
-        />
-        <div className="equipe-banner">
-          <div className='equipe-logo-banner'>
-            <div className="equipe-logo">
-              <img
-                src="/logoo.png"
-                alt="Logo LMF"
-                className="equipe-logo-image"
-              />
-              <div className="equipe-separator"></div>
-              <div className="equipe-logo-name">
-                <span className="equipe">Equipe</span>
-              </div>
-            </div>
-          </div>
-          <div className="equipe-tela-azul"></div>
-        </div>
-      </div>
+      <Banner
+        isHomePage = {false}
+        backgroundImage= './imagem-inicio.jpg'
+        PageName='Equipe'
+      />
 
       <section className='equipe-diretoria'>
         <h2>DIRETORIA</h2>

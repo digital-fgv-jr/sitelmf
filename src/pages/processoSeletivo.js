@@ -1,29 +1,15 @@
 import React from 'react';
 import '../styles/pages/processoSeletivo.css';
+import Banner from '../components/Banner';
 
 function ProcessoSeletivo() {
   return (
     <div className='ps-container'>
-
-      <div className="ps-header">
-        <img src="/imagem-inicio.jpg" alt="Imagem topo" className="ps-imagem-topo" />
-        <div className="ps-banner">
-          <div className='ps-logo-banner'>
-            <div className="ps-logo">
-          <img
-            src="/logoo.png"
-            alt="Logo LMF"
-            className="ps-logo-image"
-          />
-          <div className="ps-separator"></div>
-          <div className="ps-logo-name">
-            <span className="ps">Processo <br /> Seletivo</span>
-          </div>
-        </div>
-          </div>
-          <div className="ps-tela-azul"></div>
-        </div>
-      </div>
+      <Banner
+        isHomePage = {false}
+        backgroundImage= './imagem-inicio.jpg'
+        PageName={<span>Processo<br />Seletivo</span>}
+      />
 
       <div className='texto-ps'>
       <h2> Descrição</h2>

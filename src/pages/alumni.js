@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/pages/alumni.css';
+import Banner from '../components/Banner';
 
 function Alumni() {
   // Dados dos Alumni: adicione quantos perfis desejar
@@ -35,25 +36,11 @@ function Alumni() {
   return (
     <div className='ps-container'>
 
-      <div className="ps-header">
-        <img src="/imagem-inicio.jpg" alt="Imagem topo" className="ps-imagem-topo" />
-        <div className="ps-banner">
-          <div className='ps-logo-banner'>
-            <div className="ps-logo">
-              <img
-                src="/logoo.png"
-                alt="Logo LMF"
-                className="ps-logo-image"
-              />
-              <div className="ps-separator"></div>
-              <div className="ps-logo-name">
-                <span className="ps">Alumni</span>
-              </div>
-            </div>
-          </div>
-          <div className="ps-tela-azul"></div>
-        </div>
-      </div>
+      <Banner
+        isHomePage = {false}
+        backgroundImage= './imagem-inicio.jpg'
+        PageName='Alumni'
+      />
 
       <div className='profile-container'>
         {alumniList.map((profile, index) => (
