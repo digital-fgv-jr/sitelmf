@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from './Logo';
 import '../styles/components/Navbar.css';
 
 const Navbar = () => {
@@ -33,21 +34,7 @@ const Navbar = () => {
   return (
     <header className={`main-header ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
       <header className='subheader'>
-        <div className="logo">
-          <Link to="/">
-          <img
-            src="/logoo.png"
-            alt="Logo LMF"
-            className="logo-image"
-          />
-          <div className="separator"></div>
-          <div className="logo-name">
-            <span className="lmf">LMF</span>
-            <span className="fgv-rio">FGV RIO</span>
-          </div>
-          </Link>
-        </div>
-
+        <Logo/>
         <nav className="nav-links">
           <ul>
             <li><Link to="/">Início</Link></li>

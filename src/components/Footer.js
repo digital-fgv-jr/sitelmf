@@ -1,26 +1,16 @@
 import React from 'react';
+import Logo from './Logo';
 import '../styles/components/Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <div className="footer-logo">
-          <img
-            src="/logoo.png"
-            alt="Logo LMF"
-            className="footer-logo-image"
-          />
-          <div className="footer-separator"></div>
-          <div className="footer-logo-name">
-            <span className="footer-lmf">LMF</span>
-            <span className="footer-fgv-rio">FGV RIO</span>
-          </div>
-        </div>
+        <Logo color="black"/>
 
         <div className="footer-contact">
-            <p><strong>Endereço:</strong> <br /> Praia de Botafogo, 190, Rio de Janeiro, RJ</p>
-            <p><strong>Contato:</strong> <br /> email@email.com</p>
+            <p><strong>Endereço:</strong> <br />Praia de Botafogo, 190, Rio de Janeiro, RJ</p>
+            <p><strong>Contato:</strong> <br />ligademercadofgvrio@gmail.com</p>
         </div>
 
         <div className="social-links">
