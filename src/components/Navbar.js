@@ -71,7 +71,7 @@ const Navbar = () => {
           </nav>
         )}
       </div>
-      <hr className={`navbar-divider ${hidden || scrolled ? 'hidden' : ''}`} />
+      <hr className={`header-divider ${hidden || scrolled ? 'hidden' : ''}`} />
     </header>
   );
 };
