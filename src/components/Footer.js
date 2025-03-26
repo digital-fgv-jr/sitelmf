@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './Logo';
+import SocialLinks from './SocialLinks';
 import '../styles/components/Footer.css';
 
 function Footer() {
@@ -13,14 +14,7 @@ function Footer() {
             <p><strong>Contato:</strong> <br />ligademercadofgvrio@gmail.com</p>
         </div>
 
-        <div className="social-links">
-          <a href="https://www.instagram.com/lmfgvrio" target="_blank" rel="noopener noreferrer">
-            <img src="/instagram-icon-preto.png" alt='' className="social-icon" />
-          </a>
-          <a href="https://www.linkedin.com/company/liga-de-mercado-financeiro-fgv-rio" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedin-icon-preto.png" alt='' className="social-icon" />
-          </a>
-        </div>
+        <SocialLinks color="black"/>
       </div>
 
       <div className="footer-bottom">

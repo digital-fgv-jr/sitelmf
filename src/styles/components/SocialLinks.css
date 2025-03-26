@@ -1,0 +1,20 @@
+.SocialLinks a i{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+}
+
+.SocialLinks i {
+    transition: color 0.3s ease;
+  }
+  
+.SocialLinks i.white {
+    color: white;
+  }
+  
+.SocialLinks i.black {
+    color: black;
+  }
+
+.SocialLinks i:hover {
+    color: var(--dourado-principal);
+  }

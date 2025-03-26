@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from './Logo';
+import SocialLinks from './SocialLinks';
 import '../styles/components/Navbar.css';
+import 'font-awesome/css/font-awesome.min.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,17 +11,18 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [hidden, setHidden] = useState(false);
 
+  // Controla o estado da navbar
   const handleScroll = () => {
-    if (window.scrollY < 100) {
+    if (window.scrollY < 150) {
       setScrolled(false);
       setHidden(false);
     }
-    else if (window.scrollY > lastScrollY && window.scrollY > 100) {
-      setScrolled(false);
-      setHidden(true);
-    } else if (window.scrollY < lastScrollY && window.scrollY > 100) {
+    else if (window.scrollY < lastScrollY) {
       setScrolled(true);
       setHidden(false);
+    } else {
+      setScrolled(false);
+      setHidden(true);
     }
     setLastScrollY(window.scrollY);
   };
@@ -29,13 +32,15 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [lastScrollY]);
+  }, [lastScrollY, hidden]);
 
   return (
-    <header className={`main-header ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
-      <header className='subheader'>
+    <header className={`navbar-container ${scrolled ? 'scrolled' : ''} ${hidden ? 'hidden' : ''}`}>
+      <div className='navbar'>
         <Logo/>
-        <nav className="nav-links">
+
+        <nav className="navbar-links">
+
           <ul>
             <li><Link to="/">Início</Link></li>
             <li><Link to="/processoSeletivo">Processo Seletivo</Link></li>
@@ -43,15 +48,9 @@ const Navbar = () => {
             <li><Link to="/equipe">Equipe</Link></li>
             <li><Link to="/alumni">Alumni</Link></li>
           </ul>
+          
+          <SocialLinks/>
 
-          <div className="social-links">
-            <a href="https://www.instagram.com/lmfgvrio" target="_blank" rel="noopener noreferrer">
-              <img src="/instagram-icon.png" alt='' className="social-icon" />
-            </a>
-            <a href="https://www.linkedin.com/company/liga-de-mercado-financeiro-fgv-rio" target="_blank" rel="noopener noreferrer">
-              <img src="/linkedin-icon.png" alt='' className="social-icon" />
-            </a>
-          </div>
         </nav>
 
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)}>
@@ -71,7 +70,7 @@ const Navbar = () => {
             </ul>
           </nav>
         )}
-      </header>
+      </div>
       <hr className={`header-divider ${hidden || scrolled ? 'hidden' : ''}`} />
     </header>
   );
