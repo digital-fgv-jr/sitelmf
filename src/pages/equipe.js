@@ -4,9 +4,10 @@ import Banner from '../components/Banner';
 
 function Equipe() {
   const diretores = [
-    { nome: 'Pedro Migon', posicao: 'Presidente', linkedin: 'http://www.linkedin.com/in/pedro-migon', imagem: ""  },
-    { nome: 'Diretor 2', posicao: 'Posição', linkedin: '#', imagem: ""  },
-    { nome: 'Diretor 3', posicao: 'Posição', linkedin: '#', imagem: ""  },
+    { nome: 'Pedro Migon', posicao: 'Presidente', linkedin: 'http://www.linkedin.com/in/pedro-migon', imagem: "Membros/PedroMigon_Presidente.jpg"  },
+    { nome: 'João F. M. Lemos de Moraes' , posicao: 'Vice Presidente ', linkedin: 'https://www.linkedin.com/in/jo%C3%A3o-f-m-lemos-de-moraes-97bb38255', imagem: "Membros/JoãoLemos_VicePresidente.jpg" },
+    { nome: 'Rodrigo Kimaid Schroeder', posicao: 'Diretor de Parcerias', linkedin: 'http://www.linkedin.com/in/rodrigo-schroeder', imagem: "Membros/Rodrigo_Diretor-Parcerias.jpg"  },
+    { nome: 'Arthur Ribeiro', posicao: 'Diretor Acadêmico', linkedin: 'https://www.linkedin.com/in/arthurrribeiro/', imagem: "Membros/Arthur_Diretor-Academico.jpg"  },
     { nome: 'Diretor 4', posicao: 'Posição', linkedin: '#', imagem: ""  },
     { nome: 'Diretor 5', posicao: 'Posição', linkedin: '#', imagem: "" },
   ];
@@ -76,7 +77,7 @@ function Equipe() {
                   rel='noopener noreferrer'
                 >
                   <img 
-                    src='/linkedin-icon-preto.png' 
+                    src='/linkedin-icon-azul.png' 
                     alt='LinkedIn' 
                     className='equipe-linkedin' 
                   />
