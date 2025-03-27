@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedin } from 'react-icons/fa';
 import '../styles/pages/alumni.css';
 import Banner from '../components/Banner';
 
@@ -53,7 +54,7 @@ function Alumni() {
                 rel="noopener noreferrer" 
                 className="linkedin-icon"
               >
-                <img src="/linkedin-icon-azul.png" alt="LinkedIn" />
+                <FaLinkedin className="membro-linkedin" color='#062553'/>
               </a>
             </div>
             <div className="position">{profile.position}</div>
