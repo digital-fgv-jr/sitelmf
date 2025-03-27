@@ -1,20 +1,17 @@
-.SocialLinks a i{
-    font-size: 1.25rem;
-    margin-left: 1rem;
+.SocialLinks a .social-icon {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  transition: color 0.3s ease;
 }
 
-.SocialLinks i {
-    transition: color 0.3s ease;
-  }
-  
-.SocialLinks i.white {
-    color: white;
-  }
-  
-.SocialLinks i.black {
-    color: black;
-  }
+.social-icon.white {
+  color: white;
+}
 
-.SocialLinks i:hover {
-    color: var(--dourado-principal);
-  }
+.social-icon.black {
+  color: black;
+}
+
+.social-icon:hover {
+  color: var(--dourado-principal);
+}
