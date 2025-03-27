@@ -17,19 +17,19 @@ function MissoesVisaoValores() {
       <div className='subitem-missao-visao-valores'>
         <h3>Valores</h3>
         <p>
-        Meritocracia: reconhecimento pelo esforço e resultados alcançados.
+        <strong>Meritocracia:</strong> reconhecimento pelo esforço e resultados alcançados.
         <br />
         <br />
-        Excelência: busca constante por qualidade e alto desempenho.
+        <strong>Excelência:</strong> busca constante por qualidade e alto desempenho.
         <br />
         <br />
-        Pensamento crítico: estímulo ao questionamento, análise e aprendizado contínuo.
+        <strong>Pensamento crítico:</strong> estímulo ao questionamento, análise e aprendizado contínuo.
         <br />
         <br />
-        Resiliência: capacidade de enfrentar e superar desafios em um mercado competitivo.
+        <strong>Resiliência:</strong> capacidade de enfrentar e superar desafios em um mercado competitivo.
         <br />
         <br />
-        Comunidade: construção de uma rede colaborativa e de crescimento mútuo.
+        <strong>Comunidade:</strong> construção de uma rede colaborativa e de crescimento mútuo.
         </p>
       </div>
 
