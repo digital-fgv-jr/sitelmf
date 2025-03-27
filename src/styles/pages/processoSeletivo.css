@@ -1,50 +1,5 @@
 .ps-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .texto-ps {
-    width: 100%;
-    padding: 3rem 0rem;
-    text-align: center;
-    color: #3D3D3D;
-    margin-top: -2rem;
-  }
-  
-  .texto-ps h2 {
-    margin-top: 0.5rem;
-    font-size: 3.5rem;
-    margin-bottom: 1rem;
-    color: var(--azul-principal);
-  }
-  
-  .texto-ps p {
-    text-align: justify;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    max-width: 900px;
-    margin: 0 auto;
-    color: #3D3D3D;
-  }
-
-  .inscricao {
-    background-color: var(--azul-principal);
-    width: 100%;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  
-  .inscricao-link {
-    font-size: 3rem;
-    margin: 0;
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  
-  .inscricao-link:hover {
-    color: var(--dourado-principal);
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
