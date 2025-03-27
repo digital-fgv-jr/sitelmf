@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Logo from './Logo';
 import SocialLinks from './SocialLinks';
 import '../styles/components/Navbar.css';
-import 'font-awesome/css/font-awesome.min.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
