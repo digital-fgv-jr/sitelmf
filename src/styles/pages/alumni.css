@@ -37,3 +37,15 @@
     color: #3D3D3D;
     padding-top: 0.5rem;
 }
+
+@media (max-width: 768px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .profile {
+        width: 12rem;
+    }
+}

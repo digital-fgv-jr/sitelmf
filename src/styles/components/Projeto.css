@@ -5,7 +5,6 @@
   align-items: center;
   border: 0.05rem solid #ddd;
   overflow: hidden;
-  flex-wrap: wrap;
 }
 
 .projeto:nth-child(even) {
@@ -58,6 +57,7 @@
     width: 90%;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .projeto-title {
