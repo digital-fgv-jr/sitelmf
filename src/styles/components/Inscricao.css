@@ -18,3 +18,8 @@
   color: var(--dourado-principal);
 }
   
+@media (max-width: 768px) {
+  .inscricao-link{
+    font-size: 2rem;
+  }
+}

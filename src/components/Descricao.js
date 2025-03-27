@@ -4,7 +4,7 @@ import '../styles/components/TextoPS.css';
 function Descricao() {
   return (
     <>
-      <h2>Descrição</h2>
+      <h2>DESCRIÇÃO</h2>
       <p>
         <strong>Processo de Trainee – LMF FGV Rio</strong>
         <br />

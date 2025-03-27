@@ -99,3 +99,13 @@
   font-weight: bold;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .logo-banner {
+    flex-direction: column;
+  }
+
+  .banner-separator {
+    display: none;
+  }
+}
