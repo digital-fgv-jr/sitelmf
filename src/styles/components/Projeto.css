@@ -5,11 +5,12 @@
   align-items: center;
   border: 0.05rem solid #ddd;
   overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .projeto:nth-child(even) {
-    flex-direction: row-reverse;
-  }
+  flex-direction: row-reverse;
+}
 
 .projeto:nth-child(odd) {
   flex-direction: row;
@@ -42,4 +43,24 @@
   color: #3D3D3D;
   margin-top: 0.5rem;
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .projeto-imagem {
+    width: 100%;
+  }
+
+  .projeto-info {
+    margin: 1rem 1rem;
+  }
+
+  .projeto {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projeto-title {
+    font-size: 1.2rem;
+  }
 }
