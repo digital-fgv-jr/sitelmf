@@ -40,7 +40,7 @@ function Inicio() {
           Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
           Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
           Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
-          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+          Descrição da missão da organização. Descrição da missão da organização. 
           </p>
         </div>
         <div className="visao">
