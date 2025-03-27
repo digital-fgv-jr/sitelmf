@@ -8,19 +8,37 @@ function MissoesVisaoValores() {
       <div className='subitem-missao-visao-valores'>
         <h3>Missão</h3>
         <p>
-          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
-          Descrição da missão da organização. Descrição da missão da organização. Descrição da missão da organização.
+        Estimular e capacitar nossos membros por meio da combinação equilibrada entre teoria e desafios práticos. Promovemos eventos,
+        treinamentos e contato direto com profissionais do mercado, visando desenvolver habilidades essenciais e fomentar o pensamento
+        crítico necessário para o sucesso no setor financeiro.
+        </p>
+      </div>
+
+      <div className='subitem-missao-visao-valores'>
+        <h3>Valores</h3>
+        <p>
+        Meritocracia: reconhecimento pelo esforço e resultados alcançados.
+        <br />
+        <br />
+        Excelência: busca constante por qualidade e alto desempenho.
+        <br />
+        <br />
+        Pensamento crítico: estímulo ao questionamento, análise e aprendizado contínuo.
+        <br />
+        <br />
+        Resiliência: capacidade de enfrentar e superar desafios em um mercado competitivo.
+        <br />
+        <br />
+        Comunidade: construção de uma rede colaborativa e de crescimento mútuo.
         </p>
       </div>
 
       <div className='subitem-missao-visao-valores'>
         <h3>Visão</h3>
-        <p>Descrição da visão da organização.</p>
-      </div>
-
-      <div className='subitem-missao-visao-valores'>
-        <h3>Valores</h3>
-        <p>Descrição dos valores da organização.</p>
+        <p>
+        Ser uma comunidade acadêmica que inspira e prepara seus membros para carreiras sólidas no mercado financeiro, destacando-se
+        pela aplicação prática do conhecimento e pela construção contínua de oportunidades concretas para nossos integrantes.
+        </p>
       </div>
     </div>
   );

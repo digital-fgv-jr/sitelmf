@@ -8,8 +8,7 @@
   background-image: url('../../../public/touro.jpg');
   background-size: cover;
   background-position: top;
-  background-position-y: -25rem;
-  background-repeat: no-repeat;
+  background-position-y: -17rem;
   z-index: 0;
 }
   
@@ -25,20 +24,13 @@
   z-index: 1;
 }
   
-.missoes-visao-valores > div {
-  background-color: rgba(255, 255, 255, 0.75);
+.missoes-visao-valores div {
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 2rem;
   text-align: center;
   flex: 1;
   z-index: 2;
   position: relative;
-}
-  
-.missoes-visao-valores div {
-  background-color: rgb(255, 255, 255, 0.65);
-  padding: 2rem;
-  text-align: center;
-  flex: 1;
 }
   
 .missoes-visao-valores h3 {
@@ -50,4 +42,13 @@
 .missoes-visao-valores p {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+@media (max-width: 769px) {
+  .missoes-visao-valores {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 1rem;
+    background-position-y: center;
+  }
 }

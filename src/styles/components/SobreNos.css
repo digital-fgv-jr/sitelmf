@@ -3,6 +3,7 @@
   padding: 3rem 0rem;
   text-align: center;
   color: #3D3D3D;
+  align-items: center;
 }
   
 .sobre-nos h2 {
@@ -19,4 +20,11 @@ line-height: 1.6;
 max-width: 900px;
 margin: 0 auto;
 color: #3D3D3D;
+}
+
+@media (max-width: 768px) {
+  .sobre-nos {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
