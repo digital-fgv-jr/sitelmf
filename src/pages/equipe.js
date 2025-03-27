@@ -47,7 +47,7 @@ function Equipe() {
                   rel='noopener noreferrer'
                 >
                   <img 
-                    src='/linkedin-icon-preto.png' 
+                    src='/linkedin-icon-azul.png' 
                     alt='LinkedIn' 
                     className='equipe-linkedin' 
                   />
