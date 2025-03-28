@@ -19,15 +19,11 @@ function MissoesVisaoValores() {
         <p>
         <strong>Meritocracia:</strong> reconhecimento pelo esforço e resultados alcançados.
         <br />
-        <br />
         <strong>Excelência:</strong> busca constante por qualidade e alto desempenho.
-        <br />
         <br />
         <strong>Pensamento crítico:</strong> estímulo ao questionamento, análise e aprendizado contínuo.
         <br />
-        <br />
         <strong>Resiliência:</strong> capacidade de enfrentar e superar desafios em um mercado competitivo.
-        <br />
         <br />
         <strong>Comunidade:</strong> construção de uma rede colaborativa e de crescimento mútuo.
         </p>
