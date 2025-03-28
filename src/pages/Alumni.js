@@ -13,8 +13,6 @@ function Alumni() {
     { name: 'Luis Gustavo Borges', position: 'Membro', linkedin: 'https://www.linkedin.com/in/luisgustavoborges/details/experience/' },
     { name: 'Gabriel Bernardino', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/glbernardino/' },
     { name: 'Emanuel Fernandes', position: 'Membro', linkedin: 'https://www.linkedin.com' },
-    { name: 'Nome Sobrenome 8', position: 'Posição', linkedin: 'https://www.linkedin.com' },
-    { name: 'Nome Sobrenome 9', position: 'Posição', linkedin: 'https://www.linkedin.com' },
     { name: 'Pedro Rondon', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/pedro-rondon-moura-/' },
     { name: 'Matheus Gabriel', position: 'Vice-Presidente', linkedin: 'https://www.linkedin.com' },
     { name: 'Alex Temporal', position: 'Diretor Acadmêmico', linkedin: 'https://www.linkedin.com/in/alex-temporal/' },
@@ -31,7 +29,7 @@ function Alumni() {
     { name: 'Mateus Ruiz', position: 'Membro', linkedin: 'https://www.linkedin.com/in/mateus-ruiz-garcia/' },
     { name: 'Fernando Oliveira', position: 'Membro', linkedin: 'https://www.linkedin.com/in/fernandopuppin/' },
     { name: 'Lucas Valle', position: 'Membro', linkedin: 'https://www.linkedin.com/in/lucas-valle-01a563263/' },
-
+    { name: 'Leonardo Melito', position: 'Membro', linkedin: 'https://www.linkedin.com/in/leonardo-juliano-melito-dos-santos-5548851b6/' },
   ];
 
   return (
