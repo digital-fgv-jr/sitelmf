@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/pages/Inicio.css';
 import Banner from '../components/Banner';
 import SobreNos from '../components/SobreNos';
 import MissoesVisaoValores from '../components/MissaoVisaoValores';

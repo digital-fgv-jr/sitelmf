@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
-import '../styles/pages/alumni.css';
+import '../styles/pages/Alumni.css';
 import Banner from '../components/Banner';
 
 function Alumni() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/projetos.css';
+import '../styles/pages/Projetos.css';
 import Banner from '../components/Banner';
 import Nucleo from '../components/Nucleo';
 
