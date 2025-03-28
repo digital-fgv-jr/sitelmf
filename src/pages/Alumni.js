@@ -15,7 +15,7 @@ function Alumni() {
     { name: 'Emanuel Fernandes', position: 'Membro', linkedin: 'https://www.linkedin.com' },
     { name: 'Pedro Rondon', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/pedro-rondon-moura-/' },
     { name: 'Matheus Gabriel', position: 'Vice-Presidente', linkedin: 'https://www.linkedin.com' },
-    { name: 'Alex Temporal', position: 'Diretor Acadmêmico', linkedin: 'https://www.linkedin.com/in/alex-temporal/' },
+    { name: 'Alex Temporal', position: 'Diretor Academêmico', linkedin: 'https://www.linkedin.com/in/alex-temporal/' },
     { name: 'Guilherme Mamedes', position: 'Diretor Institucional', linkedin: 'https://www.linkedin.com/in/guilherme-mamedes/' },
     { name: 'Luiz Filipe Peres', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/luiz-filipe-peres/' },
     { name: 'Matheus Villela', position: 'Vice-Presidente', linkedin: 'https://www.linkedin.com/in/matheus-villela-8b5233276/' },
