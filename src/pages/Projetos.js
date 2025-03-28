@@ -6,7 +6,7 @@ import Nucleo from '../components/Nucleo';
 function Projetos() {
   const privateEquity = [
     {
-      imagem: './projetos/hig.jpg',
+      imagem: 'Projetos/hig.jpg',
       titulo: '2024.2 - H.I.G Capital',
       descricao: `O trabalho do Núcleo de Private Equity sobre a Cimed foi desenvolvido em parceria com a HIG Capital e contou com a
       orientação de uma equipe de analistas da casa. A análise teve início com um estudo do setor farmacêutico, seguido de uma
@@ -15,7 +15,7 @@ function Projetos() {
       empresa e suas perspectivas de crescimento.`,
     },
     {
-      imagem: './projetos/vinci.jpg',
+      imagem: 'Projetos/vinci.jpg',
       titulo: '2024.1 - Vinci',
       descricao: `O projeto de Private Equity foi realizado em parceria com a Vinci Partners, sob a mentoria de Aline Carmelier. A
       análise focou na Kalunga, onde replicamos o processo real de avaliação e investimento de uma firma de private equity. Começamos
@@ -30,7 +30,7 @@ function Projetos() {
 
   const publicEquity = [
     {
-      imagem: './projetos/vista.jpg',
+      imagem: 'Projetos/vista.jpg',
       titulo: '2023.2 - Vista Capital',
       descricao: `O trabalho do Núcleo de Public Equities foi desenvolvido em parceria com a Vista Capital, contando com a mentoria de
       Eduardo Cintra, analista de equities que cobria a Intelbras. O processo envolveu uma análise fundamentalista da empresa, abordando
@@ -38,7 +38,7 @@ function Projetos() {
       valuation e avaliação de múltiplos, garantindo uma visão mais completa sobre a companhia.`,
     },
     {
-      imagem: './projetos/tork.jpg',
+      imagem: 'Projetos/tork.jpg',
       titulo: '2024.1 - Tork Capital',
       descricao: `O trabalho do Núcleo de Public Equities no primeiro semestre de 2024 foi realizado em parceria com a Tork Capital,
       contando com a mentoria de um de seus sócios. O projeto envolveu a análise da empresa PRIO, incluindo um estudo aprofundado do
@@ -48,14 +48,14 @@ function Projetos() {
 
   const investmentBanking = [
     {
-      imagem: './projetos/safra.jpg',
+      imagem: 'Projetos/safra.jpg',
       titulo: '2024.2 - Banco Safra',
       descricao: `O núcleo de Investment Banking, em parceria com o Banco Safra, analisou um case de M&A entre as empresas de educação
       YDUQS e Cruzeiro do Sul. O estudo envolveu avaliações setoriais, qualitativas e financeiras, além da análise do processo de
       criação de valor e das sinergias da operação, sob a supervisão dos analistas Alexandre Bastos e Henrique Stevaux.`,
     },
     {
-      imagem: './projetos/ubs.jpg',
+      imagem: 'Projetos/ubs.jpg',
       titulo: '2023.2 - UBS',
       descricao: `O trabalho do Núcleo de Investment Banking foi desenvolvido em parceria com o UBS BB, contando com a mentoria de
       Fernando Mauad e Sergio Zeitune, ambos Associate Directors do banco. O projeto envolveu a elaboração de um pitch de M&A entre
@@ -67,7 +67,7 @@ function Projetos() {
 
   const macro = [
     {
-      imagem: './projetos/kinea.jpg',
+      imagem: 'Projetos/kinea.jpg',
       titulo: '2023.1 - Kinea',
       descricao: `O projeto com o Núcleo Macro foi desenvolvido em parceria com a Kinea sob a tutoria do Lucas Tumkus e apresentado ao
       José Carlos da Vinci. O objetivo era criar um portfólio de investimentos em ativos globais, com foco na análise da economia dos
@@ -81,7 +81,7 @@ function Projetos() {
 
   const globalEquity = [
     {
-      imagem: './projetos/arbor.jpg',
+      imagem: 'Projetos/arbor.jpg',
       titulo: '2024.2 - Arbor Capital',
       descricao: `No case de Global Equities conduzido em parceria com a Arbor Capital, realizamos uma análise aprofundada da Waste
       Management, uma das maiores empresas do setor de resíduos do mundo, com mais de 20 bilhões de dólares em receita anual. O estudo
