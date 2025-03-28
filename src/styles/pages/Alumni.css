@@ -1,8 +1,10 @@
 .profile-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
 }
 
 .profile {
@@ -10,7 +12,7 @@
     margin-right: 5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 17rem;
+    width: 14rem;
 }
 
 .profile-header {
@@ -38,14 +40,3 @@
     padding-top: 0.5rem;
 }
 
-@media (max-width: 768px) {
-    .profile-container {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .profile {
-        width: 12rem;
-    }
-}
