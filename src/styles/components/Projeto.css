@@ -45,19 +45,22 @@
 }
 
 @media (max-width: 768px) {
-  .projeto-imagem {
-    width: 100%;
-  }
-
-  .projeto-info {
-    margin: 1rem 1rem;
-  }
-
   .projeto {
     width: 90%;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .projeto-imagem {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .projeto-info {
+    margin: 1rem;
   }
 
   .projeto-title {
