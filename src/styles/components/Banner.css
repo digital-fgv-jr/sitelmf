@@ -109,4 +109,9 @@
   .banner-separator {
     display: none;
   }
+
+  .page-name {
+    text-align: center;
+    font-size: 4rem;
+  }
 }
