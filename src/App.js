@@ -2,11 +2,11 @@ import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Inicio from './pages/inicio';
-import ProcessoSeletivo from './pages/processoSeletivo';
-import Equipe from './pages/equipe';
-import Alumni from './pages/alumni';
-import Projetos from './pages/projetos';
+import Inicio from './pages/Inicio';
+import ProcessoSeletivo from './pages/ProcessoSeletivo';
+import Equipe from './pages/Equipe';
+import Alumni from './pages/Alumni';
+import Projetos from './pages/Projetos';
 import Footer from './components/Footer';
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Inicio />} />
-        <Route path="/processoSeletivo" element={<ProcessoSeletivo />} />
-        <Route path="/equipe" element={<Equipe />} />
-        <Route path="/alumni" element={<Alumni />} />
-        <Route path="/projetos" element={<Projetos />} />
+        <Route path="/ProcessoSeletivo" element={<ProcessoSeletivo />} />
+        <Route path="/Equipe" element={<Equipe />} />
+        <Route path="/Alumni" element={<Alumni />} />
+        <Route path="/Projetos" element={<Projetos />} />
       </Routes>
 
       <Footer />
