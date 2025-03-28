@@ -7,7 +7,7 @@
   color: var(--azul-principal);
   background-image: url('../../../public/touro.jpg');
   background-size: cover;
-  background-position-y: -17rem;
+  background-position-y: -25rem;
   z-index: 0;
 }
 
