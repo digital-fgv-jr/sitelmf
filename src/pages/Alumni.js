@@ -30,6 +30,7 @@ function Alumni() {
     { name: 'Fernando Oliveira', position: 'Membro', linkedin: 'https://www.linkedin.com/in/fernandopuppin/' },
     { name: 'Lucas Valle', position: 'Membro', linkedin: 'https://www.linkedin.com/in/lucas-valle-01a563263/' },
     { name: 'Leonardo Melito', position: 'Membro', linkedin: 'https://www.linkedin.com/in/leonardo-juliano-melito-dos-santos-5548851b6/' },
+    { name: 'Renato Timoteo Wanderley', position: 'Presidente', linkedin: 'https://www.linkedin.com/in/renatowanderley/' },
   ];
 
   return (
